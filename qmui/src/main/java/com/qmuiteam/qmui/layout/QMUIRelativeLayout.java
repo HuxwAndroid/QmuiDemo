@@ -30,7 +30,7 @@ import com.qmuiteam.qmui.alpha.QMUIAlphaRelativeLayout;
 
 public class QMUIRelativeLayout extends QMUIAlphaRelativeLayout implements IQMUILayout {
     private QMUILayoutHelper mLayoutHelper;
-
+    private QMUILayoutHelper mLayoutHelper3;
     public QMUIRelativeLayout(Context context) {
         super(context);
         init(context, null, 0);
