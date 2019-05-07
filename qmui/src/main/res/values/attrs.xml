@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="photoView">
+        <attr name="imageview_margin_between" format="dimension"></attr>
+        <attr name="imageview_marginTop" format="dimension"></attr>
+        <attr name="imageview_marginBottom" format="dimension"></attr>
+        <attr name="imageview_marginleft" format="dimension"></attr>
+        <attr name="imageview_width" format="dimension"></attr>
+        <attr name="imageview_height" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>

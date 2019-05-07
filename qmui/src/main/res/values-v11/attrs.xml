@@ -1,0 +1,48 @@
+<resources>
+    <attr name="duration" format="integer"/><!--动画时长-->
+    <attr name="shape" format="enum"><!--CheckView形状-->
+        <enum name="circle" value="0"/><!--圆形-->
+        <enum name="square" value="1"/><!--正方形-->
+    </attr>
+    <attr name="strokeWidth" format="dimension"/><!--选中时，勾的宽度以及未选中时描边的宽度-->
+    <attr name="colorTick" format="color|reference"/><!--选中时勾的颜色-->
+    <attr name="colorChecked" format="color|reference"/><!--选中时的背景色-->
+    <attr name="colorUnchecked" format="color|reference"/><!--未选中时的背景色-->
+    <attr name="colorUncheckedStroke" format="color|reference"/><!--未选中时,描边的颜色-->
+    <attr name="colorDisabledStroke" format="color|reference"/><!--未选中时,禁用时,描边的颜色-->
+    <attr name="colorDisabledChecked" format="color|reference"/><!--选中时,禁用时的背景色-->
+    <attr name="checked" format="boolean"/>
+    <attr name="enabled" format="boolean"/>
+    <attr name="clickable" format="boolean" />
+    <declare-styleable name="CheckView">
+        <attr name="duration"/>
+        <attr name="strokeWidth"/>
+        <attr name="colorTick"/>
+        <attr name="colorChecked"/>
+        <attr name="colorUnchecked"/>
+        <attr name="colorUncheckedStroke"/>
+        <attr name="shape"/>
+        <attr name="checked"/>
+        <attr name="enabled"/>
+        <attr name="clickable" />
+        <attr name="colorDisabledStroke"/>
+        <attr name="colorDisabledChecked"/>
+    </declare-styleable>
+
+    <declare-styleable name="CheckBox">
+        <attr name="text" format="reference|string"/><!--单选/多选旁边的文本-->
+        <attr name="textColor" format="color|reference"/><!--文本颜色-->
+        <attr name="textSize" format="dimension|reference"/><!--文本大小-->
+        <attr name="middlePadding" format="dimension|integer"/><!--单选/多选与文本之间的距离-->
+        <attr name="strokeWidth"/>
+        <attr name="colorTick"/>
+        <attr name="colorChecked"/>
+        <attr name="colorUnchecked"/>
+        <attr name="colorUncheckedStroke"/>
+        <attr name="checkBoxWidth" format="dimension|integer"/><!--单选/多选框的宽度-->
+        <attr name="checkBoxHeight" format="dimension|integer"/><!--单选/多选框的高度-->
+        <attr name="shape"/>
+        <attr name="duration"/>
+        <attr name="checked"/>
+    </declare-styleable>
+</resources>
